@@ -22,9 +22,7 @@ public class Pokemon {
 
     public String getSurname() { return surname; }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
+    public void setSurname(String surname) { this.surname = surname;}
 
     public List<Capacite> getCapacitesList() {
         return capacitesList;
