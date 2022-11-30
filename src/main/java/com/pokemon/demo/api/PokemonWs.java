@@ -15,19 +15,13 @@ public class PokemonWs {
     }
 
     @PostMapping
-    public void createPokemon(@RequestBody Pokemon pokemon) {
-
-    }
+    public void createPokemon(@RequestBody Pokemon pokemon) {  }
 
     @PutMapping("{name}")
-    public void updatePokemon(@PathVariable(name = "name")String name){
-
-    }
+    public void updatePokemon(@PathVariable(name = "name") String nom) {  }
 
     @DeleteMapping("{name}")
-    public void deletePokemon(@PathVariable(name = "name") String name){
-
-    }
+    public void deletePokemon(@PathVariable(name = "name") String nom) {  }
 
 
 }
